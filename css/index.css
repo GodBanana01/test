@@ -196,28 +196,69 @@ body {
   flex-direction: row;
   justify-content: center;
   /* align-items: center; */
-  gap: 30px;
+  gap: 60px;
  }
 
- .swiper-slide.slide3 h3 {
+.swiper-slide.slide3 h3 {
   color: #69f;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.swiper-slide.slide3 ul li span {
   font-size: 2rem;
   font-weight: 600;
- }
+  color: rgba(0, 0, 0, .6);
+}
 
-.swiper-slide.slide3 > .project > .left01, .right02 {
+.swiper-slide.slide3 > .project > .left01 {
   width: 100%;
   height: 60%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 200px;
- }
+  gap: 80px;
+}
 
- /* .swiper-slide.slide3 > .project .left .design {
+ .swiper-slide.slide3 > .project > .right02 {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 130px;
+}
+
+ .swiper-slide.slide3 .project .left01 .design, .plan {
+  width: 350px;
+  height: 200px;
   border: 1px solid #000;
- } */
+}
+
+.swiper-slide.slide3 .project .right02 .define, .portfolio {
+  width: 350px;
+  height: 200px;
+  border: 1px solid #000;
+}
+
+.swiper-slide.slide3 .project ul li {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0 0 20px;
+}
+
+.swiper-slide.slide3 img {
+  width: 30px;
+  height: 25px;
+}
+
+.swiper-slide.slide3 a {
+  width: 30px;
+  height: 25px;
+}
 
 .swiper-slide.slide4 {
   display: flex;
