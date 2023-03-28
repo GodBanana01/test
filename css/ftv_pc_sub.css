@@ -1,0 +1,333 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+/* Noto Sans KR 폰트 */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css");
+/* font-awesome url버전에 따라 폰트가 달리 나올 수 있음 */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    word-break: keep-all;
+    /* outline: 1px solid red; */
+}
+
+:root {
+    font-family: 'Noto Sans KR', sans-serif;
+    --colorWhite : #fff;
+    --colorBlack : #000;
+    --colorGerylight : #888A90;
+    --colorSkyBlue : #239BF4;
+}
+
+.sec01 {
+    width: 100%;
+    height: 180px;
+    background: #e3e3e3;
+}
+
+.sec01 .inner {
+    width: 1200px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.inner .introduce {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.inner .post {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background: #239BF4;
+    text-indent: -999px;
+    background: url(/ex/images/ftv/바다/빅게임더와일드.jpg)no-repeat 50% 50% / cover;
+}
+
+.introduce .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.introduce .text h3 {
+    font-size: 1.5625rem;
+    font-weight: 600;
+}
+
+.introduce .text span {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.sec01 .inner .contact {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.sec01 .inner .contact div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.sec02 {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.sec02 .inner {
+    width: 100%;
+}
+
+.sec02 .inner .tabContent {
+    width: 100%;
+}
+
+.sec02 .inner .tabContent .tabBt{
+    margin: 20px 0;
+}
+
+.tabContent .tabBt button {
+    /* width: 150px; */
+    height: 50px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border: none;
+    background: none;
+    border-bottom: 3px solid transparent;
+    margin: 0 20px 0 0;
+}
+
+.tabContent .tabBt button:hover {
+    border-bottom: 3px solid #239BF4;
+}
+
+.tabBt button.on {
+    border-bottom: 3px solid #239BF4;
+}
+
+.tabContent .t01 {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.tabContent .t01 .program01 {
+    width: 100%;
+    height: 100%;
+    padding: 10px 10px;
+    margin: 0 0 20px 0;
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+}
+
+.tabContent .t01 .banner {
+    width: 100%;
+    height: 400px;
+    background: url(/ex/images/ftv/바다/빅게임더와일드.jpg)no-repeat 50% 50% / cover;
+    text-indent: -999px;
+}
+
+.tabContent .program01 .info {
+    width: 40%;
+    height: 400px;
+}
+
+.info .plan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding: 0 0 20px 0;
+}
+
+.info .plan h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.info .plan p {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.info .staff h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 10px 0;
+}
+
+.info .staff div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    padding: 5px 0 5px 0;
+    border-bottom: 1px solid var(--colorGerylight);
+}
+
+.info .staff div h3 {
+    width: 50%;
+    height: 100%;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.info .staff div span {
+    width: 50%;
+    font-size: 1rem;
+}
+
+.info .staff div:nth-of-type(3) span {
+    display: none;
+}
+
+.tabContent .program02 {
+    width: 100%;
+    margin: 0 0 40px 0;
+}
+
+.tabContent .program02 h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 0 0 20px 0;
+}
+
+.tabContent .program02 .push {
+    margin: 0 auto;
+    padding: 0 60px;
+}
+
+.tabContent .program02 .swiper-wrapper .swiper-slide img {
+    width: 100%;
+    height: 100%;
+}
+
+.tabContent .program02 .swiper-wrapper .swiper-slide h3 {
+    font-size: 1.15rem;
+    font-weight: 600;
+}
+
+.tabContent .program02 .swiper-wrapper .swiper-slide span {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.tabContent .program02 .swiper-wrapper .swiper-slide p {
+    font-size: 0.8125rem;
+    width: 40px;
+    padding: 0 5px;
+    margin: 5px 0 0 0;
+    color: red;
+    border: 2px solid red;
+    border-radius: 20px;
+}
+
+.tabContent .tab {
+    display: none;
+}
+
+.tabContent .tab.on {
+    display: block;
+}
+
+.tabContent .t02 {
+    width: 100%;
+}
+
+.tabContent .t02 .broadCast {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+    padding: 10px 40px;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.tabContent .t02 .broadCast img{
+    width: 70%;
+    height: 90%;
+}
+
+.broadCast .summary {
+    width: 30%;
+    color: var(--colorWhite);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.broadCast .summary h3{
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.broadCast .summary span{
+    width: 280px;
+    font-size: 1rem;
+}
+
+.broadCast .navBt {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.broadCast .navBt button {
+    font-size: 1.25rem;
+    font-weight: 300;
+    background: none;
+    color: var(--colorWhite);
+    border:1px solid var(--colorWhite) ;
+    padding: 5px 5px;
+    cursor: pointer;
+}
+
+.t02 div.warning {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #e5e5e5;
+    margin: 0 0 20px 0;
+}
+
+.t02 div.warning h2{
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
