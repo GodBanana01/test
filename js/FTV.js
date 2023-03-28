@@ -1,7 +1,7 @@
 window.onload = () => {
 
   // full banner
-  var banner = new Swiper(".banner", {
+new Swiper(".banner", {
     navigation: {
       nextEl: ".control01 > .swiper-button-next",
       prevEl: ".control01 > .swiper-button-prev",
@@ -19,7 +19,7 @@ window.onload = () => {
   // ---------------------------------------
   
   // timeline
-  var timeline = new Swiper(".timeline", {
+  new Swiper(".timeline", {
     slidesPerView: 3,
     spaceBetween: 0,
     loop: true,
@@ -73,7 +73,7 @@ window.onload = () => {
   // --------------------------------------------
   
   // 최신 프로그램
-  var swiper01 = new Swiper(".new", {
+  new Swiper(".new", {
     slidesPerView: 2,
     spaceBetween: 5,
     loop: true,
@@ -96,7 +96,7 @@ window.onload = () => {
   // ---------------------------------
   
   // 주간 best 방송
-  var swiper02 = new Swiper(".swiper.best", {
+  new Swiper(".swiper.best", {
     slidesPerView: 2,
     spaceBetween: 5,
     loop: true,
@@ -142,7 +142,7 @@ window.onload = () => {
   // --------------------------------------------
   
   //  종합
-  var swiper05 = new Swiper(".overall", {
+  new Swiper(".overall", {
     slidesPerView: 1,
     spaceBetween: 0,
     pagination: {
@@ -163,7 +163,7 @@ window.onload = () => {
   // ------------------------------------------------
   
   //  민물
-  var swiper06 = new Swiper(".freshwater", {
+  new Swiper(".freshwater", {
     slidesPerView: 1,
     spaceBetween: 0,
     pagination: {
@@ -184,7 +184,7 @@ window.onload = () => {
   // ------------------------------------------------
   
   //  바다
-  var swiper07 = new Swiper(".sea", {
+  new Swiper(".sea", {
     slidesPerView: 1,
     spaceBetween: 0,
     pagination: {
@@ -205,7 +205,7 @@ window.onload = () => {
   // ------------------------------------------------
   
   //  루어
-  var swiper08 = new Swiper(".lure", {
+  new Swiper(".lure", {
     slidesPerView: 1,
     spaceBetween: 0,
     pagination: {
@@ -245,7 +245,7 @@ window.onload = () => {
   // ------------------------------------------------
   
   // 최신동영상
-  var swiper09 = new Swiper(".youtube", {
+  new Swiper(".youtube", {
     slidesPerView: 2,
     spaceBetween: 5,
     loop: true,
@@ -272,7 +272,7 @@ window.onload = () => {
   // ------------------------------------------------
   
   // 무료동영상
-  var swiper10 = new Swiper(".free", {
+  new Swiper(".free", {
     slidesPerView: 2,
     spaceBetween: 5,
     loop: true,
@@ -299,7 +299,7 @@ window.onload = () => {
   // ------------------------------------------------
   
   //스마트스토어
-  var swiper11 = new Swiper(".store", {
+  new Swiper(".store", {
     slidesPerView: 2,
     spaceBetween: 5,
     pagination: {
@@ -326,7 +326,7 @@ window.onload = () => {
   // ------------------------------------------------
   
   //협력기관
-  var swiper12 = new Swiper(".agency", {
+  new Swiper(".agency", {
     slidesPerView: 1,
     spaceBetween: 0,
     breakpoints: {

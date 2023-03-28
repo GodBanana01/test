@@ -23,19 +23,19 @@
 }
 
 .banner .swiper-slide.slide1 {
-    background: url(/ex/images/ftv/banner/banner_[Main]pc_1920_680_빅게임.jpg) no-repeat 50% 50% / cover;
+    background: url(/portfolio/images/ftv/banner/banner_[Main]pc_1920_680_빅게임.jpg) no-repeat 50% 50% / cover;
 }
 
 .banner .swiper-slide.slide2 {
-    background: url(/ex/images/ftv/banner/banner_[Main]pc_1920_680_이글아이2.jpg) no-repeat 50% 50% / cover;
+    background: url(/portfolio/images/ftv/banner/banner_[Main]pc_1920_680_이글아이2.jpg) no-repeat 50% 50% / cover;
 }
 
 .banner .swiper-slide.slide3 {
-    background: url(/ex/images/ftv/banner/banner_[Main]pc_1920_680_보트앤조이.jpg) no-repeat 50% 50% / cover;
+    background: url(/portfolio/images/ftv/banner/banner_[Main]pc_1920_680_보트앤조이.jpg) no-repeat 50% 50% / cover;
 }
 
 .banner .swiper-slide.slide4 {
-    background: url(/ex/images/ftv/banner/banner_[Main]pc_1920_680_주간전망대.jpg) no-repeat 50% 50% / cover;
+    background: url(/portfolio/images/ftv/banner/banner_[Main]pc_1920_680_주간전망대.jpg) no-repeat 50% 50% / cover;
 }
 
 .banner .control01 .swiper-button-next {
@@ -325,99 +325,99 @@
 }
 
 .overall .swiper-wrapper .swiper-slide:nth-of-type(1) {
-    background: url(/ex/images/ftv/종합/보트앤조이.jpg) no-repeat 50% 50% / cover;
+    background: url(/portfolio/images/ftv/종합/보트앤조이.jpg) no-repeat 50% 50% / cover;
 }
 
 .overall .swiper-wrapper .swiper-slide:nth-of-type(2) {
-    background: url(/ex/images/ftv/종합/낚시인피플.jpg) no-repeat 50% 50% / cover;
+    background: url(/portfolio/images/ftv/종합/낚시인피플.jpg) no-repeat 50% 50% / cover;
 }
 
 .overall .swiper-wrapper .swiper-slide:nth-of-type(3) {
-    background: url(/ex/images/ftv/종합/신국진의주간전망대.jpg) no-repeat 50% 50% / cover;
+    background: url(/portfolio/images/ftv/종합/신국진의주간전망대.jpg) no-repeat 50% 50% / cover;
 }
 
 .overall .swiper-wrapper .swiper-slide:nth-of-type(4) {
-    background: url(/ex/images/ftv/종합/뻐니피싱.png) no-repeat 50% 50% / cover;
+    background: url(/portfolio/images/ftv/종합/뻐니피싱.png) no-repeat 50% 50% / cover;
 }
 
 .overall .swiper-wrapper .swiper-slide:nth-of-type(5) {
-    background: url(/ex/images/ftv/종합/이테르피스칸투르.jpg) no-repeat 50% 50% / cover;
+    background: url(/portfolio/images/ftv/종합/이테르피스칸투르.jpg) no-repeat 50% 50% / cover;
 }
 
 .overall .swiper-wrapper .swiper-slide:nth-of-type(6) {
-    background: url(/ex/images/ftv/종합/더필드스태프.png) no-repeat 50% 50% / cover;
+    background: url(/portfolio/images/ftv/종합/더필드스태프.png) no-repeat 50% 50% / cover;
 }
 
 .freshwater .swiper-wrapper .swiper-slide:nth-of-type(1) {
-    background: url(/ex/images/ftv/민물/마이그라운드.jpg) no-repeat 50% 50% / cover;
+    background: url(/portfolio/images/ftv/민물/마이그라운드.jpg) no-repeat 50% 50% / cover;
 }
 
 .freshwater .swiper-wrapper .swiper-slide:nth-of-type(2) {
-    background: url(/ex/images/ftv/민물/붕어에미치다.jpg) no-repeat 50% 50% / cover;
+    background: url(/portfolio/images/ftv/민물/붕어에미치다.jpg) no-repeat 50% 50% / cover;
 }
 
 .freshwater .swiper-wrapper .swiper-slide:nth-of-type(3) {
-    background: url(/ex/images/ftv/민물/소야_밤을지새우다.jpg) no-repeat 50% 50% / cover;
+    background: url(/portfolio/images/ftv/민물/소야_밤을지새우다.jpg) no-repeat 50% 50% / cover;
 }
 
 .freshwater .swiper-wrapper .swiper-slide:nth-of-type(4) {
-    background: url(/ex/images/ftv/민물/월척특급.jpg) no-repeat 50% 50% / cover;
+    background: url(/portfolio/images/ftv/민물/월척특급.jpg) no-repeat 50% 50% / cover;
 }
 
 .freshwater .swiper-wrapper .swiper-slide:nth-of-type(5) {
-    background: url(/ex/images/ftv/민물/피싱오브컴벳.png) no-repeat 50% 50% / cover;
+    background: url(/portfolio/images/ftv/민물/피싱오브컴벳.png) no-repeat 50% 50% / cover;
 }
 
 .freshwater .swiper-wrapper .swiper-slide:nth-of-type(6) {
-    background: url(/ex/images/ftv/민물/대물여정외길.jpg) no-repeat 50% 50% / cover;
+    background: url(/portfolio/images/ftv/민물/대물여정외길.jpg) no-repeat 50% 50% / cover;
 }
 
 .sea .swiper-wrapper .swiper-slide:nth-of-type(1) {
-    background: url(/ex/images/ftv/바다/승부사의히든카드.jpg) no-repeat 50% 50% / cover;
+    background: url(/portfolio/images/ftv/바다/승부사의히든카드.jpg) no-repeat 50% 50% / cover;
 }
 
 .sea .swiper-wrapper .swiper-slide:nth-of-type(2) {
-    background: url(/ex/images/ftv/바다/그릿.jpg) no-repeat 50% 50% / cover;
+    background: url(/portfolio/images/ftv/바다/그릿.jpg) no-repeat 50% 50% / cover;
 }
 
 .sea .swiper-wrapper .swiper-slide:nth-of-type(3) {
-    background: url(/ex/images/ftv/바다/지깅톡.jpg) no-repeat 50% 50% / cover;
+    background: url(/portfolio/images/ftv/바다/지깅톡.jpg) no-repeat 50% 50% / cover;
 }
 
 .sea .swiper-wrapper .swiper-slide:nth-of-type(4) {
-    background: url(/ex/images/ftv/바다/빌드업.jpg) no-repeat 50% 50% / cover;
+    background: url(/portfolio/images/ftv/바다/빌드업.jpg) no-repeat 50% 50% / cover;
 }
 
 .sea .swiper-wrapper .swiper-slide:nth-of-type(5) {
-    background: url(/ex/images/ftv/바다/북서풍의공격낚시.png) no-repeat 50% 50% / cover;
+    background: url(/portfolio/images/ftv/바다/북서풍의공격낚시.png) no-repeat 50% 50% / cover;
 }
 
 .sea .swiper-wrapper .swiper-slide:nth-of-type(6) {
-    background: url(/ex/images/ftv/바다/미스터리원투.jpg) no-repeat 50% 50% / cover;
+    background: url(/portfolio/images/ftv/바다/미스터리원투.jpg) no-repeat 50% 50% / cover;
 }
 
 .lure .swiper-wrapper .swiper-slide:nth-of-type(1) {
-    background: url(/ex/images/ftv/루어/LFA토너먼트챔피언십.jpg) no-repeat 50% 50% / cover;
+    background: url(/portfolio/images/ftv/루어/LFA토너먼트챔피언십.jpg) no-repeat 50% 50% / cover;
 }
 
 .lure .swiper-wrapper .swiper-slide:nth-of-type(2) {
-    background: url(/ex/images/ftv/루어/해신.jpg) no-repeat 50% 50% / cover;
+    background: url(/portfolio/images/ftv/루어/해신.jpg) no-repeat 50% 50% / cover;
 }
 
 .lure .swiper-wrapper .swiper-slide:nth-of-type(3) {
-    background: url(/ex/images/ftv/루어/이글아이2.jpg) no-repeat 50% 50% / cover;
+    background: url(/portfolio/images/ftv/루어/이글아이2.jpg) no-repeat 50% 50% / cover;
 }
 
 .lure .swiper-wrapper .swiper-slide:nth-of-type(4) {
-    background: url(/ex/images/ftv/루어/2022LFA엘리트리그.png) no-repeat 50% 50% / cover;
+    background: url(/portfolio/images/ftv/루어/2022LFA엘리트리그.png) no-repeat 50% 50% / cover;
 }
 
 .lure .swiper-wrapper .swiper-slide:nth-of-type(5) {
-    background: url(/ex/images/ftv/루어/스타일J.jpg) no-repeat 50% 50% / cover;
+    background: url(/portfolio/images/ftv/루어/스타일J.jpg) no-repeat 50% 50% / cover;
 }
 
 .lure .swiper-wrapper .swiper-slide:nth-of-type(6) {
-    background: url(/ex/images/ftv/루어/루어테크니션.jpg) no-repeat 50% 50% / cover;
+    background: url(/portfolio/images/ftv/루어/루어테크니션.jpg) no-repeat 50% 50% / cover;
 }
 
 .sec02 .inner {
@@ -862,25 +862,25 @@
 }
 
 .article07 .right .agency .swiper-wrapper .swiper-slide.slide1 a {
-    background: url(/ex/images/ftv/협력기관/해양경찰청.png)no-repeat 50% 50% / cover;
+    background: url(/portfolio/images/ftv/협력기관/해양경찰청.png)no-repeat 50% 50% / cover;
 }
 
 .article07 .right .agency .swiper-wrapper .swiper-slide.slide2 a {
-    background: url(/ex/images/ftv/협력기관/해양수산부.png)no-repeat 50% 50% / cover;
+    background: url(/portfolio/images/ftv/협력기관/해양수산부.png)no-repeat 50% 50% / cover;
 }
 
 .article07 .right .agency .swiper-wrapper .swiper-slide.slide3 a {
-    background: url(/ex/images/ftv/협력기관/국립해양조사원.png)no-repeat 50% 50% / cover;
+    background: url(/portfolio/images/ftv/협력기관/국립해양조사원.png)no-repeat 50% 50% / cover;
 }
 
 .article07 .right .agency .swiper-wrapper .swiper-slide.slide4 a {
-    background: url(/ex/images/ftv/협력기관/한국수산자원공단.png)no-repeat 50% 50% / cover;
+    background: url(/portfolio/images/ftv/협력기관/한국수산자원공단.png)no-repeat 50% 50% / cover;
 }
 
 .article07 .right .agency .swiper-wrapper .swiper-slide.slide5 a {
-    background: url(/ex/images/ftv/협력기관/한국어촌어항공단.png)no-repeat 50% 50% / cover;
+    background: url(/portfolio/images/ftv/협력기관/한국어촌어항공단.png)no-repeat 50% 50% / cover;
 }
 
 .article07 .right .agency .swiper-wrapper .swiper-slide.slide6 a {
-    background: url(/ex/images/ftv/협력기관/한국낚시협회.png)no-repeat 50% 50% / cover;
+    background: url(/portfolio/images/ftv/협력기관/한국낚시협회.png)no-repeat 50% 50% / cover;
 }
