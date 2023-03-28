@@ -24,8 +24,6 @@ new Swiper(".banner", {
     spaceBetween: 0,
     loop: true,
     centeredSlides: true,
-    observer: true,
-    observeParents: true,
     breakpoints: {
       431: {
         slidesPerView: 4,
