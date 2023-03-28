@@ -1,4 +1,4 @@
-var bullet = ['HOME', 'PROFILE', 'SKILL', 'PROJECT', 'CONTACT'];
+var bullet = ['HOME', 'PROFILE', 'PROJECT', 'CONTACT'];
 
 new Swiper(".index", {
   effect: "cube",
@@ -9,6 +9,8 @@ new Swiper(".index", {
     shadowScale: 1,
   },
   allowTouchMove: false,
+  observer: true,
+  observeParents: true,
   // grabCursor: true,
   keyboard: {
     enabled: true,
