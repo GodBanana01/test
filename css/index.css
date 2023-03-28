@@ -234,13 +234,11 @@ body {
  .swiper-slide.slide3 .project .left01 .design, .plan {
   width: 350px;
   height: 200px;
-  border: 1px solid #000;
 }
 
 .swiper-slide.slide3 .project .right02 .define, .portfolio {
   width: 350px;
   height: 200px;
-  border: 1px solid #000;
 }
 
 .swiper-slide.slide3 .project ul li {

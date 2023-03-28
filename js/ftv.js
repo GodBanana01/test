@@ -19,7 +19,7 @@ window.onload = () => {
     // ---------------------------------------
     
     // timeline
-    new Swiper(".timeline", {
+var timeline = new Swiper(".timeline", {
       slidesPerView: 3,
       spaceBetween: 0,
       loop: true,
