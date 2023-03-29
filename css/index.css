@@ -4,7 +4,7 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css");
 /* font-awesome url버전에 따라 폰트가 달리 나올 수 있음 */
 
-/* ---------- 공통적용 */
+/* ---------- commons */
 
 * {
     box-sizing: border-box;
@@ -77,7 +77,7 @@ body {
   box-shadow: 0 10px 30px rgba(0,0,0,0.2) inset;
 }
 
-/* ---------- sldie1 */
+/* ---------- welcome */
 
 .swiper-slide.slide1 {
   color: #000;
@@ -116,7 +116,7 @@ body {
   text-align: center;
 }
 
-/* ---------- sldie2 */
+/* ---------- profile */
 
 .swiper-slide.slide2 h3 {
   font-size: 2rem;
@@ -195,7 +195,7 @@ body {
   height: 30px;
 }
 
-/* ---------- sldie3 */
+/* ---------- project */
 
 .swiper-slide.slide3 .project {
   width: 100%;
@@ -206,17 +206,76 @@ body {
 }
 
 .swiper-slide.slide3 .project .Box {
-  width: 80%;
-  height: 60%;
-  border: 1px solid #000;
-  background: rgba(0, 0, 0, .6);
-  border-radius: 15px;
-  /* box-shadow: 0px 0px 40px rgb(168, 122, 168); */
+  width: 90%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
+.swiper-slide.slide3 .project .Box img {
+  width: 55%;
+  height: 65%;
+  padding: 0;
+}
 
+.swiper-slide.slide3 .project .infoBox {
+  width: 40%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px 0 0 0;
+}
 
-/* ---------- sldie4 */
+.swiper-slide.slide3 .project .infoBox h3 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #69f;
+}
+
+.swiper-slide.slide3 .project .infoBox p {
+  font-size: 1rem;
+  font-weight: 600;
+  color: rgba(0, 0, 0, .7);
+}
+
+.swiper-slide.slide3 .project .infoBox strong {
+  color: rgba(0, 0, 0, 1);
+}
+
+.swiper-slide.slide3 .project .infoBox span {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #69f;
+}
+
+.swiper-slide.slide3 .project .infoBox button {
+  width: 80px;
+  height: 30px;
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: center;
+  background: none;
+  border-top: 1px solid #69f;
+  border-left: 1px solid #69f;
+  border-bottom: 2px solid #69f;
+  border-right: 5px solid #69f;
+  margin: 10px 0 0 20px;
+  cursor: pointer;
+  position: relative;
+}
+
+.swiper-slide.slide3 .project .infoBox button:hover {
+  width: 80px;
+  height: 30px;
+  background: #69f;
+  color: #fff;
+  transition: all .3s;
+  transform: translateX(2px);
+}
+
+/* ---------- contact */
 
 .swiper-slide.slide4 {
   display: flex;
@@ -243,89 +302,3 @@ body {
   font-weight: 500;
   text-align: center;
 }
-
-/* .swiper-slide.slide3 .project{
-  width: 60%;
-  height: 60%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 30px;
- }
-
-.swiper-slide.slide3 h3 {
-  color: #69f;
-  font-size: 2.5rem;
-  font-weight: 600;
-  padding: 0 0 0 10px;
-}
-
-.swiper-slide.slide3 ul li span {
-  font-size: 1.8rem;
-  font-weight: 600;
-  color: rgba(0, 0, 0, .6);
-}
-
-.swiper-slide.slide3 ul li p {
-  font-size: 1rem;
-  font-weight: bold;
-  color: rgba(0, 0, 0, .6);
-}
-
-.swiper-slide.slide3 > .project > .left01 {
-  width: 50%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 30px;
-}
-
- .swiper-slide.slide3 > .project > .right02 {
-  width: 50%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 30px;
-}
-
- .swiper-slide.slide3 .project .left01 .design, .plan {
-  width: 350px;
-  height: 170px;
-  border: 1px solid transparent;
-  border-radius: 10px;
-  background: rgba(255, 255, 255, 0.8);
-  box-shadow: 0 10px 30px rgba(0,0,0,0.2) inset;
-}
-
-.swiper-slide.slide3 .project .right02 .define, .portfolio {
-  width: 350px;
-  height: 170px;
-  border: 1px solid transparent;
-  border-radius: 10px;
-  background: rgba(255, 255, 255, 0.8);
-  box-shadow: 0 10px 30px rgba(0,0,0,0.2) inset;
-}
-
-.swiper-slide.slide3 .project ul li {
-  display: flex;
-  align-items: center;
-  padding: 10px 0 0 20px;
-}
-
-.swiper-slide.slide3 .project ul li span {
-  width: 70%;
-} */
-
-/* .swiper-slide.slide3 img {
-  width: 30px;
-  height: 25px;
-}
-
-.swiper-slide.slide3 a {
-  width: 30px;
-  height: 25px;
-} */
