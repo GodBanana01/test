@@ -5,7 +5,7 @@ new Swiper(".index", {
   cubeEffect: {
     slideShadows: true,
     shadow: true,
-    shadowOffset: 30,
+    shadowOffset: 60,
     shadowScale: 1,
   },
   allowTouchMove: false,

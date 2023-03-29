@@ -4,6 +4,8 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css");
 /* font-awesome url버전에 따라 폰트가 달리 나올 수 있음 */
 
+/* ---------- 공통적용 */
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -75,6 +77,8 @@ body {
   box-shadow: 0 10px 30px rgba(0,0,0,0.2) inset;
 }
 
+/* ---------- sldie1 */
+
 .swiper-slide.slide1 {
   color: #000;
   background: rgba(255, 255, 255, 0.8);
@@ -111,6 +115,8 @@ body {
   color: rgba(0, 0, 0, .5);
   text-align: center;
 }
+
+/* ---------- sldie2 */
 
 .swiper-slide.slide2 h3 {
   font-size: 2rem;
@@ -189,13 +195,61 @@ body {
   height: 30px;
 }
 
-.swiper-slide.slide3 .project{
+/* ---------- sldie3 */
+
+.swiper-slide.slide3 .project {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide.slide3 .project .Box {
+  width: 80%;
+  height: 60%;
+  border: 1px solid #000;
+  background: rgba(0, 0, 0, .6);
+  border-radius: 15px;
+  /* box-shadow: 0px 0px 40px rgb(168, 122, 168); */
+}
+
+
+
+/* ---------- sldie4 */
+
+.swiper-slide.slide4 {
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+}
+
+.swiper-slide.slide4 h2 {
+  color: #69f;
+  font-size: 3.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.swiper-slide.slide4 .mail,
+.swiper-slide.slide4 .phoneNumber {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.swiper-slide.slide4 p {
+  font-size: 2.5rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+/* .swiper-slide.slide3 .project{
   width: 60%;
   height: 60%;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  /* align-items: center; */
   gap: 30px;
  }
 
@@ -264,9 +318,9 @@ body {
 
 .swiper-slide.slide3 .project ul li span {
   width: 70%;
-}
+} */
 
-.swiper-slide.slide3 img {
+/* .swiper-slide.slide3 img {
   width: 30px;
   height: 25px;
 }
@@ -274,30 +328,4 @@ body {
 .swiper-slide.slide3 a {
   width: 30px;
   height: 25px;
-}
-
-.swiper-slide.slide4 {
-  display: flex;
-  flex-direction: column;
-  gap: 45px;
-}
-
-.swiper-slide.slide4 h2 {
-  color: #69f;
-  font-size: 3.5rem;
-  font-weight: bold;
-  text-align: center;
-}
-
-.swiper-slide.slide4 .mail,
-.swiper-slide.slide4 .phoneNumber {
-  display: flex;
-  align-items: center;
-  gap: 40px;
-}
-
-.swiper-slide.slide4 p {
-  font-size: 2.5rem;
-  font-weight: 500;
-  text-align: center;
-}
+} */
