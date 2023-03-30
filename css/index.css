@@ -90,6 +90,7 @@ body {
 
 .slide1 .animate__fadeInUp .mainText {
   width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -97,39 +98,110 @@ body {
 }
 
 .swiper-slide.slide1 .mainText h2 {
-  font-size: 7.5rem;
-  font-weight: 900;
-  text-align: center;
+    font-size: 11rem;
+    font-weight: bold;
+    color: #69f;
+    text-shadow: 5px 8px 7px #ccc0ac;
 }
 
 .swiper-slide.slide1 .mainText span {
-  font-size: 1.25rem;
-  font-weight: 800;
+  font-size: 1.5rem;
+  font-weight: bold;
   margin: 10px 10px;
   color: rgba(0, 0, 0, .5);
   text-align: center;
 }
 
-.swiper-slide.slide1.slide1 .mainText p {
-  font-size: 1rem;
+.swiper-slide.slide1 .control {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   color: rgba(0, 0, 0, .5);
-  text-align: center;
+  gap: 20px;
+}
+
+.swiper-slide.slide1 .control .mouse {
+  width: 30px;
+  height: 40px;
+  border-radius: 15px;
+  border: 2px solid rgba(0, 0, 0, .5);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 4px 0 0 0;
+}
+
+.swiper-slide.slide1 .control .mouse .wheel {
+  width: 10px;
+  height: 10px;
+  background: rgba(0, 0, 0, .5);
+  border-radius: 5px;
+  animation: wheel 2s linear infinite;
+}
+
+@keyframes wheel {
+  0% {
+    opacity: 0;
+    transform: translateY(10%);
+  }
+  30% {
+    opacity: .25;
+    transform: translateY(30%);
+  }
+  60% {
+    opacity: .5;
+    transform: translateY(50%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(90%);
+  }
+}
+
+.swiper-slide.slide1 .control .keyBoard {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  animation: flash 4.5s infinite;
+}
+
+.swiper-slide.slide1 .control .keyBoard div {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgba(0, 0, 0, .5);
+  border-radius: 5px;
+}
+
+@keyframes falsh {
+  50% {
+    opacity: 0;
+  }
 }
 
 /* ---------- profile */
 
+.swiper-slide.slide2 {
+  width: 100%;
+  height: 100%;
+}
+
 .swiper-slide.slide2 h3 {
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 600;
+  text-shadow: 5px 6px 5px #ccc0ac;
   color: #69f;
 }
 
 .swiper-slide.slide2 .infoWrap {
-  width: 65%;
-  height: 50%;
+  width: 80%;
+  height: 60%;
   display: flex;
-  justify-content: center;
-  gap: 30px;
+  justify-content: space-around;
+  margin: 0 auto;
 }
 
 .swiper-slide.slide2 .infoWrap ul {
@@ -156,7 +228,7 @@ body {
 }
 
 .swiper-slide.slide2 .infoWrap .left {
-  width: 400px;
+  width: 35%;
   display: flex;
   flex-direction: column;
   gap: 50px;
@@ -167,7 +239,7 @@ body {
 }
 
 .swiper-slide.slide2 .infoWrap .right {
-  width: 400px;
+  width: 40%;
   display: flex;
   flex-direction: column;
   gap: 50px;
@@ -224,7 +296,7 @@ body {
   height: 60%;
   display: flex;
   flex-direction: column;
-  gap: 25px;
+  gap: 20px;
   padding: 20px 0 0 0;
 }
 
@@ -232,6 +304,7 @@ body {
   font-size: 1.8rem;
   font-weight: bold;
   color: #69f;
+  text-shadow: 3px 5px 5px #ccc0ac;
 }
 
 .swiper-slide.slide3 .project .infoBox p {
@@ -247,6 +320,7 @@ body {
 .swiper-slide.slide3 .project .infoBox span {
   font-size: 1.5rem;
   font-weight: 600;
+  text-shadow: 3px 5px 5px #ccc0ac;
   color: #69f;
 }
 
@@ -286,10 +360,10 @@ body {
 }
 
 .swiper-slide.slide4 h2 {
-  color: #69f;
-  font-size: 3.5rem;
+  font-size: 8rem;
   font-weight: bold;
-  text-align: center;
+  color: #69f;
+  text-shadow: 5px 8px 7px #ccc0ac;
 }
 
 .swiper-slide.slide4 .mail,
