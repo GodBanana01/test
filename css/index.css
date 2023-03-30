@@ -367,10 +367,12 @@ body {
   display: flex;
   align-items: center;
   gap: 40px;
+  color: rgba(0, 0, 0, .5);
+  text-shadow: 5px 8px 7px #ccc0ac;
 }
 
 .swiper-slide.slide4 p {
   font-size: 2.5rem;
-  font-weight: 500;
+  font-weight: bold;
   text-align: center;
 }
